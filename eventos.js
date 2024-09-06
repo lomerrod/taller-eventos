@@ -7,3 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
+function saludar(event) {
+    alert('Hola!');
+    event.stopPropagation();
+  }
